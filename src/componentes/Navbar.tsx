@@ -9,7 +9,7 @@ export const Navbar = () =>{
                 <h1>Plantas Inventario</h1>
                 <div className="navbar">
                     <Link to="/">Home </Link>
-                    <Link to="/menu">Menu </Link>
+                    <Link to="/procurar">Procurar </Link>
                     <Link to="/contact">Contactos </Link>
                 </div>
             </header>

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; //liv
 import './App.css';
 import {Navbar} from "./componentes/Navbar";
 import { Home } from "./paginas/Home";
-import { Menu } from "./paginas/Menu";
+import { Procurar } from "./paginas/Procurar";
 import { Contact } from "./paginas/Contact";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/menu" element={<Menu />} />
+          <Route path="/procurar" element={<Procurar />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<h1> Página não encontrada</h1>} />
         </Routes>
